@@ -30,7 +30,8 @@ from graphene import (
     Decimal,
 )
 from graphene.types.json import JSONString
-from graphene.utils.str_converters import to_camel_case, to_const
+from graphene.utils.str_converters import to_camel_case
+from graphene_django.utils.str_converters import to_const
 from graphene_django.compat import ArrayField, HStoreField, JSONField, RangeField
 from graphene_file_upload.scalars import Upload
 from graphql import assert_valid_name, GraphQLError
